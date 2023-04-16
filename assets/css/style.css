@@ -452,7 +452,12 @@ input[type=checkbox], input[type=radio] {
         font-size: 120px; } }
     @media (max-width: 575px) {
       .section-title-two .big-text {
-        font-size: 100px; } }
+        font-size: 80px; } }  
+    @media (max-width: 360px){
+      .section-title-two .big-text {
+        font-size: 80px; }
+    }
+
   .section-title-two.text-center .big-text {
     left: 50%;
     -webkit-transform: translateX(-50%);
